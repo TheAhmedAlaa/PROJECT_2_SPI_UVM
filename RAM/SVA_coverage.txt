@@ -1,0 +1,42 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.ram_SVA
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+work.ram_SVA::assert_rst_n_prop
+                     ram_SVA.sv(41)                     0        615      29395          0      30010          0           2 off
+work.ram_SVA::assert_assertion_2_tx_valid_low
+                     ram_SVA.sv(43)                     0      22395       7397        217      30010          1           2 off
+work.ram_SVA::assert_tx_valid_high
+                     ram_SVA.sv(45)                     0       5620      23501        889      30010          0           6 off
+work.ram_SVA::assert_rd_add_data
+                     ram_SVA.sv(47)                     0       7335      22417        257      30010          1          13 off
+work.ram_SVA::assert_rd_data_add
+                     ram_SVA.sv(49)                     0       7271      22500        239      30010          0          16 off
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+work.ram_SVA::assert_rst_n_prop
+                     ram_SVA.sv(41)                     0        615      29395          0      30010          0           2 off
+work.ram_SVA::assert_assertion_2_tx_valid_low
+                     ram_SVA.sv(43)                     0      22395       7397        217      30010          1           2 off
+work.ram_SVA::assert_tx_valid_high
+                     ram_SVA.sv(45)                     0       5620      23501        889      30010          0           6 off
+work.ram_SVA::assert_rd_add_data
+                     ram_SVA.sv(47)                     0       7335      22417        257      30010          1          13 off
+work.ram_SVA::assert_rd_data_add
+                     ram_SVA.sv(49)                     0       7271      22500        239      30010          0          16 off
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

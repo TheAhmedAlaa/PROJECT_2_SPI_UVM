@@ -1,0 +1,41 @@
+# 1. Interfaces and DUT
+if.sv
+RAM.v
+ram_SVA.sv               # (if you have assertions bound to DUT)
+
+# 2. Transaction and Sequence Items
+ram_seq_item.sv
+
+# 3. Sequences
+ram_seq_rand.sv
+
+# 4. Sequencer
+ram_sequencer.sv
+
+# 5. Driver and Monitor
+ram_driver.sv
+ram_monitor.sv
+
+# 6. Agent
+ram_agent.sv
+
+# 7. Configuration
+ram_config.sv
+
+# 8. Scoreboard
+ram_sb.sv
+
+# 9. Coverage
+ram_cgp.sv
+
+# 10. Environment
+ram_env.sv
+
+# 11. Reference Model (Golden Model)
+RAM_GM.v
+
+# 12. Test
+ram_test.sv
+
+# 13. Top-level testbench wrapper
+top.sv

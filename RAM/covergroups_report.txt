@@ -1,0 +1,169 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.cvg_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         26        26         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.cvg_pkg::ram_cover_gp/cvr_gp               100.00%        100          -    Covered              
+    covered/total bins:                                    26         26          -                      
+    missing/total bins:                                     0         26          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint din_check                              100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin wr_add                                       7535          1          -    Covered              
+        bin wr_data                                      7543          1          -    Covered              
+        bin read_address                                 7502          1          -    Covered              
+        bin read_data                                    7420          1          -    Covered              
+        bin trans_WA_WD                                  7543          1          -    Covered              
+        bin trans_RA_RD                                  7543          1          -    Covered              
+        bin trans                                        7543          1          -    Covered              
+    Coverpoint rx_check                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin rx_valid_0                                   5894          1          -    Covered              
+        bin rx_valid_1                                  24106          1          -    Covered              
+    Coverpoint tx_check                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin tx_valid_0                                  24141          1          -    Covered              
+        bin tx_valid_1                                   5869          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <rx_valid_1,trans>                       6036          1          -    Covered              
+            bin <rx_valid_0,trans>                       1507          1          -    Covered              
+            bin <rx_valid_1,trans_RA_RD>                 6036          1          -    Covered              
+            bin <rx_valid_0,trans_RA_RD>                 1507          1          -    Covered              
+            bin <rx_valid_1,trans_WA_WD>                 6036          1          -    Covered              
+            bin <rx_valid_0,trans_WA_WD>                 1507          1          -    Covered              
+            bin <rx_valid_1,read_data>                   5973          1          -    Covered              
+            bin <rx_valid_0,read_data>                   1447          1          -    Covered              
+            bin <rx_valid_1,read_address>                6055          1          -    Covered              
+            bin <rx_valid_0,read_address>                1447          1          -    Covered              
+            bin <rx_valid_1,wr_data>                     6036          1          -    Covered              
+            bin <rx_valid_0,wr_data>                     1507          1          -    Covered              
+            bin <rx_valid_1,wr_add>                      6042          1          -    Covered              
+            bin <rx_valid_0,wr_add>                      1493          1          -    Covered              
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin dinXrx                                   5869          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.cvg_pkg::ram_cover_gp/cvr_gp               100.00%        100          -    Covered              
+    covered/total bins:                                    26         26          -                      
+    missing/total bins:                                     0         26          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint din_check                              100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin wr_add                                       7535          1          -    Covered              
+        bin wr_data                                      7543          1          -    Covered              
+        bin read_address                                 7502          1          -    Covered              
+        bin read_data                                    7420          1          -    Covered              
+        bin trans_WA_WD                                  7543          1          -    Covered              
+        bin trans_RA_RD                                  7543          1          -    Covered              
+        bin trans                                        7543          1          -    Covered              
+    Coverpoint rx_check                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin rx_valid_0                                   5894          1          -    Covered              
+        bin rx_valid_1                                  24106          1          -    Covered              
+    Coverpoint tx_check                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin tx_valid_0                                  24141          1          -    Covered              
+        bin tx_valid_1                                   5869          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <rx_valid_1,trans>                       6036          1          -    Covered              
+            bin <rx_valid_0,trans>                       1507          1          -    Covered              
+            bin <rx_valid_1,trans_RA_RD>                 6036          1          -    Covered              
+            bin <rx_valid_0,trans_RA_RD>                 1507          1          -    Covered              
+            bin <rx_valid_1,trans_WA_WD>                 6036          1          -    Covered              
+            bin <rx_valid_0,trans_WA_WD>                 1507          1          -    Covered              
+            bin <rx_valid_1,read_data>                   5973          1          -    Covered              
+            bin <rx_valid_0,read_data>                   1447          1          -    Covered              
+            bin <rx_valid_1,read_address>                6055          1          -    Covered              
+            bin <rx_valid_0,read_address>                1447          1          -    Covered              
+            bin <rx_valid_1,wr_data>                     6036          1          -    Covered              
+            bin <rx_valid_0,wr_data>                     1507          1          -    Covered              
+            bin <rx_valid_1,wr_add>                      6042          1          -    Covered              
+            bin <rx_valid_0,wr_add>                      1493          1          -    Covered              
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin dinXrx                                   5869          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Design Unit (filtered view): 100.00%
+
